@@ -42,15 +42,21 @@
 }
 
 .intro-background {
+    position: relative;
+    height: 100vh;
+    min-height: 100%;
+    min-width: 100%; 
     background-image: url('assets/intro-background.jpg');
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
+    vertical-align: middle;
 }
 
 .my-intro {
-    padding-top: 290px;
-    padding-bottom: 320px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-100%);
     color: #e8e8e8;
 }
 
