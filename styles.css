@@ -1,0 +1,220 @@
+.my-footer-text {
+    text-align: center;
+    color: #cccccc;
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.my-footer {
+    border-top: 1px solid #cccccc;
+    padding: 20px;
+    padding-bottom: 25px;
+}
+
+.my-icon {
+    color: #cccccc;
+    position: relative;
+    top: 2.5px;
+}
+
+.my-header {
+    border-bottom: 1px solid #cccccc;
+    min-height: 55.95px;
+    position: static;
+    top: 0;
+}
+
+.my-page-content {
+    flex: 1;
+}
+
+.my-link {
+    color: #3366bb;
+}
+
+.my-link:hover {
+    color: #3366bb;
+}
+
+.my-link:visited {
+    color: #663366;
+}
+
+.intro-background {
+    background-image: url('assets/intro-background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.my-intro {
+    padding-top: 290px;
+    padding-bottom: 320px;
+    color: #e8e8e8;
+}
+
+.no-spam {
+    display: none;
+}
+
+.projects {
+    padding-top: 5px;
+}
+
+.contact {
+    padding-top: 5px;
+}
+
+.big-image-wrapper {
+    background-image: url('assets/main-background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    padding-top: 35px;
+    position: relative;
+}
+
+.about-image {
+    padding-left: 30px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    max-height: 25%;
+    max-width: 25%;
+    float: right;
+}
+
+.titles {
+    font-size: 35px;
+    font-weight: bold;
+    color: #cccccc;
+}
+
+.main-text {
+    font-size: 16px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    color: #cccccc;
+}
+
+.project-table {
+    border: none;
+    border-color: transparent;
+    margin: 0px;
+}
+
+.project-table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+.project-tr {
+    background-color: transparent !important;
+}
+
+.project-td {
+    border: none;
+    padding-top: 2.5px;
+}
+
+.project-caption {
+    color: #cccccc;
+    text-align: center;
+    font-weight: bold;
+}
+
+.add-underline:hover {
+    text-decoration: underline;
+}
+
+.chess-overlay, .robot-overlay, .saferspace-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #1e1e1e;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: 0.5s ease;
+}
+
+.chess, .robot, .saferspace {
+    position: relative;
+}
+
+.chess:hover .chess-overlay {
+    height: 22%;
+}
+
+.robot:hover .robot-overlay {
+    height: 22%;
+}
+
+.saferspace:hover .saferspace-overlay {
+    height: 22%;
+}
+
+.overlay-text {
+    color: #cccccc;
+    font-size: 12px;
+    position: absolute;
+    right: 0;
+    padding: 5px;
+    text-align: center;
+}
+
+.overlay-button {
+    position: absolute;
+    bottom: 2px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    border: 1px solid #cccccc;
+    background-color: transparent;
+    color: #cccccc;
+    font-weight: underline;
+    border-radius: 5px;
+}
+
+.overlay-button:hover {
+    cursor: pointer;
+    background-color: #cccccc;
+    color: #1e1e1e;
+}
+
+@media screen and (max-width: 600px) {
+    .grey-background-toggle {
+        background-color: #1e1e1e;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .chess:hover .chess-overlay {
+        height: 45%;
+    }
+    
+    .robot:hover .robot-overlay {
+        height: 45%;
+    }
+    
+    .saferspace:hover .saferspace-overlay {
+        height: 45%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .chess:hover .chess-overlay {
+        height: 100%;
+    }
+    
+    .robot:hover .robot-overlay {
+        height: 100%;
+    }
+    
+    .saferspace:hover .saferspace-overlay {
+        height: 100%;
+    }
+}
